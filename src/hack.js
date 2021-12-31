@@ -10,5 +10,7 @@ const hash = '5e7d28e2cfff93edefb2d15abad07ec5';
 // First correct PR wins a Lifetime PRO  membership and T-shirt
 
 ///// ANSWER /////
+// The hash might be the MD5 format as it's long 32 character means 128 bits
+// paste the hash into website: https://www.md5online.org/md5-decrypt.html
 
-const hacked = '';
+const hacked = 'superhacker';
