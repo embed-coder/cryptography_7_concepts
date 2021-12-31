@@ -11,9 +11,9 @@ NOTE:
 
 7 common concepts were covered following order in this projects are:
 
-- Hash
+- HASH
 
-- Salt
+- SALT
 
 - HMAC
 
