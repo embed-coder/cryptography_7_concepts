@@ -1,3 +1,4 @@
+// Use salt integrate with timingSafeEqual to avoid timing attacks
 const { scryptSync, randomBytes, timingSafeEqual } = require('crypto');
 
 function signup (email, password) {
@@ -26,3 +27,13 @@ function login (email, password) {
         return 'login fail!'
     }
 }
+
+const users = [];
+
+const user = signup('foo@bar.com', 'pa$$word');
+
+console.log(user)
+
+const result = login('foo@bar.com', 'password')
+
+console.log(result)
